@@ -1,0 +1,31 @@
+{
+  "name": "@jeb.js.dev/lljsvm-asm",
+  "version": "1.0.0",
+  "description": "A CLI Assembler for Low Level JavaScript's 16-Bit VM",
+  "main": "src/index.js",
+  "bin": {
+    "@jeb.js.dev/lljsvm-asm": "bin/lljsvm-asm",
+    "lljsvm-asm": "bin/lljsvm-asm"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "lljsvm-asm",
+    "assembler",
+    "lljsvm"
+  ],
+  "author": "Jeb",
+  "license": "ISC",
+  "dependencies": {
+    "arcsecond": "^3.2.0",
+    "arg": "^5.0.0",
+    "chalk": "^4.1.1",
+    "esm": "^3.2.25",
+    "inquirer": "^8.0.0"
+  }
+}
