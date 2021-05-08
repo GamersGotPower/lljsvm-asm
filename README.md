@@ -8,7 +8,7 @@
     * [16-Bit VM](https://github.com/LowLevelJavaScript/16-Bit-Virtual-Machine)
 
 To install the CLI tool use:
-> npm i lljsvm-asm
+> npm i -g lljsvm-asm
 
 Use:
 > lljsvm-asm {source file} {output file} {symbols file(JSON Object)} {Data offset}
